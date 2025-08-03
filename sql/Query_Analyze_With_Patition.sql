@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS C
+  FROM events_full
+ WHERE event_date BETWEEN '2024-02-01' AND '2024-02-28';

@@ -1,0 +1,23 @@
+{
+  "name": "mysql-partitioning-lab",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "mg": "node ./db/knex-table.js",
+    "dev": "nodemon app.js",
+    "fake": "node ./utils/fake.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "mysql2": "^3.14.3",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0"
+  }
+}

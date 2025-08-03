@@ -1,0 +1,3 @@
+# MySQL Partitioning Lab
+
+This is a hands-on workshop project designed to demonstrate MySQL table partitioning concepts and performance benefits. The lab includes a Node.js Express application that creates both partitioned and non-partitioned tables using date-based range partitioning, along with various SQL scripts to analyze query performance, execution plans, and partition pruning behaviors. It provides practical examples of how partitioning can improve query performance for time-series data and includes utilities for generating test data to compare performance between partitioned and non-partitioned approaches.
